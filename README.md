@@ -2,8 +2,18 @@
 
 Third Party, Passive and Quite reconnaissance tool.
 
-## Usage
+## Installation
+Clone into the repository
+```bash
+git clone https://github.com/idanbuller/bullrecon.git
+```
+Use the requirements.txt file to install all python packages needed:
+```bash
+pip3 install -r requirements.txt
+```
 
+## Usage
+After setting all the things up, you may run bullrecon:
 ```python
 python3 main.py
 ```
