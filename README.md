@@ -23,7 +23,7 @@ python3 main.py
 Enter STRING / DOMAIN NAME: XXX.co.il
 Who is it?
 ==================================
-Domain:  partner.co.il
+Domain:  XXX.co.il
 Update time:  None
 Expiration time:  N/A
 Name server:  ['Ns1.XXX.co.il', 'Ns2.XXX.co.il']
