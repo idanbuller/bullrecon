@@ -7,12 +7,9 @@ class VirusTotal():
     def __init__(self, domain):
         self.domain = domain
         self.url = 'https://www.virustotal.com/vtapi/v2/domain/report'
-        self.params = {'apikey': 'f15e85a43385bfb4d81b640d8f069e127184815ee31a79863548aee72aa76945', 'domain': self.domain}
+        self.params = {'apikey': '', 'domain': self.domain}
         self.reuslt = []
         self.file = f'virus_total - {self.domain}.txt'
-
-# 6ed05894f8e3bc4a38da5a71709fd1708b5b1172 - neriya
-# f15e85a43385bfb4d81b640d8f069e127184815ee31a79863548aee72aa76945 - idan
 
     def fileSearch(self):
         # print(f"Searching for malicious files communicating with {self.domain}.\n")
