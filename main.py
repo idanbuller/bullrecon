@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from tools import iswho, pastebin, linkedin, webyzer, robots, leaked_mails, virus_total
+from tools import iswho, pastebin, linkedin, webyzer, robots, leaked_mails, virus_total, github
 
 
 class Bull():
@@ -26,6 +26,9 @@ class Bull():
     def pastebin(self):
         pastebin.Pastes(self.domain).searcher()
 
+    def github(self):
+        github.Git(self.domain).searcher()
+
     def linkedin(self):
         linkedin.Linkedin(self.domain).search()
 
@@ -45,5 +48,7 @@ print("\nMalicious Files\n==================================")
 test.virus_total()
 print("\nPastebin\n==================================")
 test.pastebin()
+print("\nGithub\n==================================")
+test.github()
 print("\nLinkedin\n==================================")
 test.linkedin()
